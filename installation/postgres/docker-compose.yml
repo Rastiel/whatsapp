@@ -16,7 +16,7 @@ services:
       - "55432:5432"  # Hostta 55432, container içinde 5432
     volumes:
       - postgresData:/var/lib/postgresql/data  # Kalıcı veritabanı depolaması
-    network_mode: bridge
+    #network_mode: bridge
     cap_drop:
       - MKNOD
 
@@ -34,7 +34,7 @@ services:
       ORCHESTRATION: DOCKER-COMPOSE
     depends_on:
       - db
-    network_mode: bridge
+    #network_mode: bridge
     cap_drop:
       - MKNOD
 
@@ -56,7 +56,7 @@ services:
     depends_on:
       - db
       - wacore
-    network_mode: bridge
+    #network_mode: bridge
     cap_drop:
       - MKNOD
 
