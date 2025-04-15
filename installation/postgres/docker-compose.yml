@@ -52,7 +52,7 @@ services:
       - db.env
       - .env
     environment:
-      WA_API_KEY: EAAYZAVZAWZCK5oBO9Oivqx5wlxEMPm4JThbPZAJwJh52ZB3qTGyCznY1Q6dOB4sAnKCWxwg3vJSZBvOvATp2oXvCHgQndqk3qTYObtDlzxMi0nGKXuErdmb54ahDoUbsKEXPCJZBd2uFTkN0mfWBhQZAaGsJsmRUK3WjXGBuQIUWj8OHQictGqxuOpemzMbUkAVl0Er9uN6djEwoYyvsLtzBKO4vwUsG2NylsZBQZD
+      WA_API_KEY: rastiel-secret-key
       WACORE_HOSTNAME: wacore
       WA_RUNNING_ENV_VERSION: v2.2.3
       ORCHESTRATION: DOCKER-COMPOSE
