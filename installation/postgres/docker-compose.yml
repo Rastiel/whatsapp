@@ -11,6 +11,7 @@ services:
       POSTGRES_DB: wa_db  # Kullanılacak veritabanı adı
       POSTGRES_USER: postgres  # db.env ile aynı olmalı
       POSTGRES_PASSWORD: mysecretpassword  # db.env ile aynı
+      POSTGRES_HOST_AUTH_METHOD: trust  # ← bu satırı EKLE
     ports:
       - "55432:5432"  # Hostta 55432, container içinde 5432
     volumes:
